@@ -1,0 +1,5 @@
+services:
+  streamflix:
+    build: .
+    ports:
+      - "8889:80"
